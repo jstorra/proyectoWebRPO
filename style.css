@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+@font-face {
+    font-family: font-ready;
+    src: url("assets/fonts/main-font.ttf");
+}
+
+video {
+    width: 111%;
+    position: relative;
+    top: -150px;
+}
+
+.title {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: font-ready;
+    color: white;
+    font-size: 8rem;
+    font-weight: 900;
+    z-index: 100
+}
+
