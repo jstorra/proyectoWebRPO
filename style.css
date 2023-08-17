@@ -25,12 +25,22 @@ body {
     src: url("assets/fonts/main-font.ttf");
 }
 
+/* HEADER */
+header {
+    width: 100%;
+    height: 6vh;
+    background-color: red;
+}
+
+nav {
+    height: 100%;
+}
+
 .menu-nav {
     display: flex;
-    position: fixed;
     width: 100%;
     padding: 0px 80px;
-    height: 60px;
+    height: 100%;
     justify-content: space-between;
     align-items: center;
     list-style: none;
@@ -51,14 +61,26 @@ body {
     border-bottom: solid 2px white;
 }
 
+/* POSTER */
 .main-poster {
-    position: relative;
-    top: 60px;
-    height: 80vh;
+    width: 100%;
+    height: 94vh;
 }
 
 .main-poster img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+}
+
+.main-poster__info {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.main-poster{
+
 }
