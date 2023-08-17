@@ -28,7 +28,7 @@ body {
 /* HEADER */
 header {
     width: 100%;
-    height: 6vh;
+    height: 8vh;
     background-color: red;
 }
 
@@ -59,12 +59,13 @@ nav {
 
 .menu-nav li:hover {
     border-bottom: solid 2px white;
+    transition: 0.1s ease all;
 }
 
 /* POSTER */
 .main-poster {
     width: 100%;
-    height: 94vh;
+    height: 92vh;
 }
 
 .main-poster img {
