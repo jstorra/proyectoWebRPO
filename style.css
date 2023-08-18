@@ -6,9 +6,15 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: font-ready;
+    src: url("assets/fonts/main-font.ttf");
+}
+
 :root {
     --bg-color: #0f1030;
-    --menu-a-color: #ac74ff
+    --menu-a-color: #ac74ff;
+    --main-font: font-ready
 }
 
 html {
@@ -20,13 +26,11 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-@font-face {
-    font-family: font-ready;
-    src: url("assets/fonts/main-font.ttf");
-}
-
 /* HEADER */
 header {
+    position: sticky;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 8vh;
     background-color: var(--bg-color);
@@ -35,23 +39,29 @@ header {
     align-items: center;
 }
 
+.header__icon {
+    width: 120px;
+    margin: 0 50px;
+}
+
 .menu-nav {
     display: flex;
     width: 100%;
-    padding: 0px 80px;
     height: 100%;
     align-items: center;
+    justify-content: space-between;
     list-style: none;
+}
+
+.menu-nav li {
+    padding: 5px;
+    margin-right: 60px;
 }
 
 .menu-nav a{
     text-decoration: none;
     font-size: 2rem;
     color: var(--menu-a-color);
-}
-
-.menu-nav li {
-    padding: 5px;
 }
 
 .menu-nav li:hover {
@@ -63,6 +73,7 @@ header {
 .main-poster {
     width: 100%;
     height: 92vh;
+    overflow: hidden;
 }
 
 .main-poster img {
@@ -73,13 +84,13 @@ header {
 
 .main-poster__info {
     position: absolute;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: end;
-    align-items: center;
+    width: 500px;
+    height: 200px;
+    top: 50%;
+    right: 20%;
 }
 
-.main-poster{
-
+.main-poster__info h1 {
+    font-size: 5rem;
+    font-family: var(--main-font), sans-serif;
 }
