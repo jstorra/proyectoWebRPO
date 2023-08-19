@@ -13,7 +13,6 @@
 
 :root {
     --bg-color: #0f1030;
-    --bg-color2: #262752;
     --text-color: #f0f8ff;
     --title-color: #ac74ff;
     --main-font: font-ready
@@ -26,10 +25,12 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: var(--bg-color);
 }
 
 /* HEADER */
-.intro {
+header {
     position: sticky;
     top: 0;
     left: 0;
@@ -39,7 +40,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 0 10px 2px black;
+    box-shadow: 0 0 10px black;
     z-index: 20;
 }
 
@@ -78,24 +79,26 @@ body {
 }
 
 /* POSTER */
-.poster {
+.main__poster {
     width: 100%;
     height: 92vh;
     overflow: hidden;
 }
 
-.poster img {
+.main__poster img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.overlay {
+.poster__overlay {
     position: absolute;
     top: 8vh;
     width: 100%;
     height: 92vh;
-    background: linear-gradient(to bottom right, transparent, rgba(15, 16, 48, 1));
+    background: 
+        linear-gradient(180deg, transparent, var(--bg-color)),
+        linear-gradient(90deg,transparent, var(--bg-color));
     z-index: 1;
 }
 
