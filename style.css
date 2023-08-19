@@ -94,7 +94,7 @@ header {
     top: 8vh;
     width: 100%;
     height: 92vh;
-    background: linear-gradient(90deg, transparent 10%, rgba(15, 16, 48, 1));
+    background: linear-gradient(to bottom right, transparent, rgba(15, 16, 48, 1));
     z-index: 1;
 }
 
@@ -116,8 +116,8 @@ header {
         var(--text-color) 0%,
         var(--text-color) 21.2%,
 
-        var(--title-color) 30%,
-        var(--title-color) 69.8%,
+        var(--title-color) 21.2%,
+        var(--title-color) 78.6%,
 
         var(--text-color) 78.6%,
         var(--text-color) 100%
