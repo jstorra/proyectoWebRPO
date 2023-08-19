@@ -100,7 +100,7 @@ header {
 
 .main-poster__info {
     position: absolute;
-    width: 800px;
+    width: 820px;
     height: 600px;
     top: 21%;
     right: 12%;
@@ -111,8 +111,17 @@ header {
     text-align: center;
     font-size: 18rem;
     line-height: 0.75;
-    background: linear-gradient(blue, pink);
     font-family: var(--main-font), sans-serif;
+    background: linear-gradient(
+        var(--text-color) 0%,
+        var(--text-color) 21.2%,
+
+        var(--title-color) 30%,
+        var(--title-color) 69.8%,
+
+        var(--text-color) 78.6%,
+        var(--text-color) 100%
+        );
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
