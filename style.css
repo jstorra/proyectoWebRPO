@@ -29,7 +29,7 @@ body {
 }
 
 /* HEADER */
-header {
+.intro {
     position: sticky;
     top: 0;
     left: 0;
@@ -40,20 +40,21 @@ header {
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 0 10px 2px black;
+    z-index: 20;
 }
 
-.header__icon {
+.intro__img {
     width: 120px;
     margin: 0 50px;
 }
 
-.menu-nav {
+.navbar {
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
 
-.menu-nav a{
+.navbar a{
     position: relative;
     text-decoration: none;
     font-size: 2rem;
@@ -61,7 +62,7 @@ header {
     color: var(--title-color);
 }
 
-.menu-nav a::before {
+.navbar a::before {
     content: '';
     position: absolute;
     top: 100%;
@@ -72,18 +73,18 @@ header {
     transition: .3s;
 }
 
-.menu-nav a:hover::before {
+.navbar a:hover::before {
    width: 100%;
 }
 
 /* POSTER */
-.main-poster {
+.poster {
     width: 100%;
     height: 92vh;
     overflow: hidden;
 }
 
-.main-poster img {
+.poster img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -98,7 +99,7 @@ header {
     z-index: 1;
 }
 
-.main-poster__info {
+.poster__info {
     position: absolute;
     width: 820px;
     height: 600px;
@@ -107,26 +108,24 @@ header {
     z-index: 10;
 }
 
-.main-poster__info h1 {
+.poster__info h1 {
     text-align: center;
     font-size: 18rem;
     line-height: 0.75;
     font-family: var(--main-font), sans-serif;
     background: linear-gradient(
-        var(--text-color) 0%,
-        var(--text-color) 21.2%,
+        blue 0%,
 
-        var(--title-color) 21.2%,
-        var(--title-color) 78.6%,
+        var(--text-color) 35%,
+        var(--text-color) 65%,
 
-        var(--text-color) 78.6%,
-        var(--text-color) 100%
+        blue 100%
         );
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
 
-.main-poster__info p {
+.poster__info p {
     text-align: center;
     font-size: 2.5rem;
     margin-top: 30px;
