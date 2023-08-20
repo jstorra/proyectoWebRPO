@@ -111,9 +111,9 @@ header {
 
 .poster__info {
     position: absolute;
-    width: 820px;
-    height: 600px;
-    top: 21%;
+    width: 870px;
+    height: max-content;
+    top: 19%;
     right: 12%;
     z-index: 10;
 }
@@ -158,38 +158,40 @@ header {
 /------------------------------- EVENTS ------------------------------\
 */
 
-.events {
+.events_event {
     display: flex;
     align-items: center;
 }
 
-.events span{
+.events_event span{
     font-size: 8rem;
     margin-right: 20px;
+    width: 90px;
+    text-align: center;
     color: rgba(255,255,255, .3);
 }
 
-.events p {
+.events_event p {
     width: 160px;
     font-size: 1.5rem;
     margin-left: -20px;
 }
 
-.events ul {
+.events_event ul {
     list-style-type: none;
 }
 
-.events__li {
+.event__li {
     padding-left: 2rem;
     background-size: 1.6rem 1.6rem;
     background-repeat: no-repeat;
 }
 
-.events__li.crystal {
+.event__li.crystal {
     background-image: url(/assets/img/keys/crystalkey.svg);
 }
 
-.events__li.jade {
+.event__li.jade {
     background-image: url(/assets/img/keys/jadekey.svg);
 }
 
