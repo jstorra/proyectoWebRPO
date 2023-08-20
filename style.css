@@ -158,22 +158,40 @@ header {
 /------------------------------- EVENTS ------------------------------\
 */
 
-/* .events__1 {
+.events {
     display: flex;
     align-items: center;
 }
 
-.events__1 span{
+.events span{
     font-size: 8rem;
     margin-right: 20px;
     color: rgba(255,255,255, .3);
 }
 
-.events__1 p {
+.events p {
     width: 160px;
     font-size: 1.5rem;
     margin-left: -20px;
-} */
+}
+
+.events ul {
+    list-style-type: none;
+}
+
+.events__li {
+    padding-left: 2rem;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+}
+
+.events__li.crystal {
+    background-image: url(/assets/img/keys/crystalkey.svg);
+}
+
+.events__li.jade {
+    background-image: url(/assets/img/keys/jadekey.svg);
+}
 
 /*
 /----------------------------- EASTER EGGS ---------------------------\
