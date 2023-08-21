@@ -168,7 +168,7 @@ section.main__about {
 
 .about__about {
     max-width: 700px;
-    min-width: 500px;
+    min-width: 400px;
     margin: 150px 0px 100px;
 }
 
@@ -247,11 +247,16 @@ section.main__casting {
     margin-top: 100px;
 }
 
+.casting__cards .cards__box ~ div:nth-of-type(2) {
+    margin: 0 80px;
+}
+
+
+
 .cards__box {
     position: relative;
     width: 400px;
     height: 600px;
-    margin-right: 80px;
     background-color: transparent;
     border-radius: 8px;
     overflow: hidden;
@@ -349,7 +354,8 @@ section.main__casting {
     height: 100%;
     background: linear-gradient(
         rgba(0,0,0,.5),
-        rgba(172,116,255,.5)
+        rgba(172,116,255,.5),
+        rgba(0,0,0,1)
     );
     transition: all .3s ease-out;
     opacity: 0;
