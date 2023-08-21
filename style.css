@@ -251,12 +251,11 @@ section.main__casting {
     margin: 0 80px;
 }
 
-
-
+/* CARDS BOX EFFECT */
 .cards__box {
     position: relative;
     width: 400px;
-    height: 600px;
+    height: 580px;
     background-color: transparent;
     border-radius: 8px;
     overflow: hidden;
@@ -311,6 +310,7 @@ section.main__casting {
     }
 }
 
+/* CARDS */
 .box__card {
     position: absolute;
     inset: 4px;
@@ -392,6 +392,53 @@ section.main__casting {
 /*
 /------------------------------- OASIS -------------------------------\
 */
+
+section.main__oasis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.oasis__info {
+    margin-top: 150px;
+    width: 80%;
+    min-width: 400px;
+}
+
+.oasis__info h2 {
+    margin-bottom: 40px;
+}
+
+.oasis__info p {
+    font-size: var(--p-font-size);
+    font-weight: var(--p-font-weight);
+    margin-top: 40px;
+}
+
+.oasis__gallery {
+    display: flex;
+    margin-top: 50px;
+    width: 80%;
+    height: 400px;
+}
+
+.oasis__gallery img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    /* object-position: center; */
+    opacity: .5;
+    transition: all .5s ease-out;
+}
+
+.oasis__gallery img:hover {
+    width: 500px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+
+
 
 /*
 /------------------------------- EVENTS ------------------------------\
