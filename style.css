@@ -15,6 +15,8 @@
     --bg-color: #0f1030;
     --text-color: #f0f8ff;
     --title-color: #ac74ff;
+    --p-font-size: 2.2rem;
+    --p-font-weight: 200;
     --main-font: font-ready
 }
 
@@ -23,12 +25,22 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
+body{
     font-family: 'Poppins', sans-serif;
     color: white;
     background-color: var(--bg-color);
 }
 
+section:not(.main__poster) {
+    padding: 0 200px;
+}
+
+h2 {
+    font-size: 4rem;
+    font-family: var(--main-font);
+    letter-spacing: 3px;
+    color: var(--title-color);
+}
 /*
 /------------------------------- HEADER ------------------------------\
 */
@@ -61,7 +73,7 @@ header {
 .navbar a{
     position: relative;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: var(--p-font-size);
     font-weight: 600;
     margin-right: 60px;
     color: var(--title-color);
@@ -86,7 +98,7 @@ header {
 /------------------------------- POSTER ------------------------------\
 */
 
-.main__poster {
+section.main__poster {
     width: 100%;
     height: 92vh;
     overflow: hidden;
@@ -146,9 +158,77 @@ header {
 /------------------------------- ABOUT -------------------------------\
 */
 
+section.main__about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about__about {
+    max-width: 700px;
+    min-width: 500px;
+    margin: 150px 0px 100px;
+}
+
+.about__about h2, .about__authors h2 {
+    text-align: center;
+}
+
+.about__about p {
+    font-size: var(--p-font-size);
+    margin-top: 40px;
+    font-weight: var(--p-font-weight);
+    text-align: center;
+}
+
+/* AUTHORS */
+.authors__author {
+    display: flex;
+    position: relative;
+    max-width: 1200px;
+    min-width: 700px;
+    min-height: 350px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    border-radius: 40px;
+    overflow: hidden;
+    border-bottom: 4px solid var(--text-color);
+}
+
+.authors__author::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, rgba(172, 116, 255, .5));
+    z-index: -1;
+}
+
+.authors__author img {
+    position: absolute;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    border-radius: 40px;
+    object-fit: cover;
+}
+
+.authors__author p {
+    padding-right: 15px;
+    margin-left: 340px;
+    font-size: var(--p-font-size);
+    font-weight: var(--p-font-weight);
+}
+
 /*
 /------------------------------ CASTING ------------------------------\
 */
+
+
+
+
+
 
 /*
 /------------------------------- OASIS -------------------------------\
