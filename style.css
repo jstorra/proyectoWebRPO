@@ -125,15 +125,16 @@ section.main__poster {
 
 .poster__info {
     position: absolute;
-    width: 870px;
+    width: 900px;
     height: max-content;
-    top: 19%;
+    top: 14%;
     right: 12%;
     z-index: 10;
 }
 
 .poster__info h1 {
     text-align: center;
+    padding: 50px;
     font-size: 18rem;
     line-height: 0.75;
     font-family: var(--main-font), sans-serif;
@@ -615,9 +616,74 @@ section.main__eastereggs {
     padding: 0 20px;
 }
 
+/* VIDEO BOX EFFECT */
+.eastereggs__video__box {
+    position: relative;
+    margin-top: 50px;
+    width: 568px;
+    height: 323px;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.eastereggs__video__box iframe {
+    position: absolute;
+    inset: 4px;
+    z-index: 2;
+}
+
+.eastereggs__video__box::before {
+    content: '';
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    width: 400px;
+    height: 600px;
+    background: linear-gradient(
+        0deg,
+        transparent,
+        var(--title-color),
+        var(--title-color),
+        var(--title-color));
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 3s linear infinite;
+}
+
 /*
 /------------------------------- REVIEWS -----------------------------\
 */
+
+section.main__reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__reviews h2 {
+    margin-top: 150px;
+}
+
+.reviews__carrousel {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.carrousel__card {
+    width: calc(100% / 3);
+}
+
+.carrousel__card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.card__info__user {
+    display: flex;
+    align-items: center;
+}
 
 /*
 /------------------------------ TRAILERS -----------------------------\
