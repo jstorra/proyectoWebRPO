@@ -101,40 +101,55 @@ header {
 */
 
 section.main__poster {
+    position: relative;
     width: 100%;
     height: 92vh;
     overflow: hidden;
 }
 
 .main__poster img {
+    position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
+    z-index: 1;
 }
 
-.poster__overlay {
+section.main__poster::after {
+    content: '';
     position: absolute;
-    top: 8vh;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 92vh;
+    height: 100%;
     background-image: 
         linear-gradient(180deg, transparent, var(--bg-color)),
         linear-gradient(90deg,transparent, var(--bg-color));
-    z-index: 1;
+    z-index: 2;
 }
 
 .poster__info {
     position: absolute;
-    width: 900px;
-    height: max-content;
-    top: 14%;
-    right: 12%;
-    z-index: 10;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.poster__info h1, .poster__info p {
+    width: auto;
+    max-width: 900px;
 }
 
 .poster__info h1 {
     text-align: center;
-    padding: 50px;
     font-size: 18rem;
     line-height: 0.75;
     font-family: var(--main-font), sans-serif;
@@ -151,10 +166,16 @@ section.main__poster {
 }
 
 .poster__info p {
-    text-align: center;
     font-size: 2.5rem;
     margin-top: 30px;
     color: var(--text-color);
+    text-align: justify;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.poster__info p::-webkit-scrollbar {
+    display: none;
 }
 
 /*
@@ -168,7 +189,7 @@ section.main__about {
 }
 
 .about__about {
-    max-width: 700px;
+    max-width: 850px;
     min-width: 400px;
     margin: 150px 0px 100px;
 }
@@ -414,6 +435,7 @@ section.main__oasis {
     font-size: var(--p-font-size);
     font-weight: var(--p-font-weight);
     margin-top: 40px;
+    text-align: justify;
 }
 
 .oasis__gallery {
