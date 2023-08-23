@@ -539,19 +539,9 @@ section.main__events {
     list-style-image: url(assets/img/keys/jadekey.svg);
 }
 
-/* .events__event li img {
-    width: 16px;
-    height: 16px;
-    margin-right: 10px;
-}
-
-.events__event li {
-    text-indent: -2rem;
-}
-
 .events__event ul li:nth-of-type(2) {
     margin-top: 20px;
-} */
+}
 
 /*
 /----------------------------- EASTER EGGS ---------------------------\
@@ -675,7 +665,7 @@ section.main__reviews {
 }
 
 .reviews__reviews {
-    width: 80%;
+    width: 90%;
     min-width: 565px;
     height: 400px;
     overflow: hidden;
