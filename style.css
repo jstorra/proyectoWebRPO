@@ -33,7 +33,7 @@ body{
 }
 
 section:not(.main__poster) {
-    padding: 0 200px;
+    padding: 0 10vw;
 }
 
 h2 {
@@ -1025,4 +1025,295 @@ footer a:active {
 footer a span {
     margin-left: 10px;
     font-size: var(--p-font-size2);
+}
+
+/*
+/ --------------------- MEDIA QUERIES -------------------- \
+*/
+
+@media only screen and (width <= 1285px) {
+    header {
+        height: 208px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    header .intro__img {
+        width: 200px;
+    }
+
+    header nav.navbar {
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    header .navbar a {
+        margin: 0;
+    }
+
+    section.main__poster .poster__info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section.main__about .about__about {
+        margin-top: 250px;
+    }
+
+    section.main__casting .casting__info {
+        margin-top: 250px;
+        margin-bottom: 50px;
+    }
+
+    section.main__casting .casting__cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    section.main__casting .casting__cards .cards__box {
+        margin-top: 20px;
+    }
+
+    section.main__oasis .oasis__info {
+        margin-top: 250px;
+    }
+
+    section.main__events h2 {
+        margin-top: 250px;
+    }
+
+    section.main__eastereggs .eastereggs__info {
+        margin-top: 250px;
+    }
+
+    section.main__reviews h2 {
+        margin-top: 250px;
+    }
+
+    section.main__trailers h2 {
+        margin-top: 250px;
+        margin-bottom: 0;
+    }
+
+    section.main__trailers .trailers__trailers .trailers__box {
+        margin-top: 50px;
+        margin-bottom: 0;
+    }
+
+    section.main__merch h2 {
+        margin-top: 250px;
+    }
+
+
+}
+
+@media only screen and (width <= 840px) {
+    header {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        height: 200px;
+    }
+
+    header nav.navbar {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    header nav.navbar a {
+        width: max-content;
+    }
+
+    header nav.navbar a + a + a {
+        margin-top: 10px;
+    }
+
+    section.main__poster .poster__info h1 {
+        font-size: 15rem;
+    }
+
+    section.main__casting .casting__info {
+        margin-top: 250px;
+        margin-bottom: 50px;
+    }
+
+    section.main__oasis .oasis__info {
+        margin-top: 250px;
+    }
+
+    section.main__events h2 {
+        margin-top: 250px;
+    }
+
+    section.main__eastereggs .eastereggs__info {
+        margin-top: 250px;
+    }
+
+    section.main__reviews h2 {
+        margin-top: 250px;
+    }
+
+    section.main__trailers h2 {
+        margin-top: 250px;
+        margin-bottom: 0;
+    }
+
+    section.main__trailers .trailers__trailers .trailers__box {
+        margin-top: 50px;
+        margin-bottom: 0;
+    }
+
+    section.main__merch h2 {
+        margin-top: 250px;
+    }
+}
+
+@media only screen and (width <= 750px) {
+    section.main__poster .poster__info h1 {
+        font-size: 12rem;
+    }
+
+    section.main__about .about__about {
+        margin-top: 250px;
+    }
+
+    section.main__about .about__authors {
+        width: 80%;
+    }
+
+    section.main__about .about__authors .authors__author {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-width: 100%;
+    }
+
+    section.main__about .about__authors .authors__author p {
+        margin: 0;
+        padding: 20px;
+        text-align: justify;
+    }
+
+    section.main__about .about__authors .authors__author a img {
+        position: relative;
+        height: 300px;
+    }
+
+    section.main__casting .casting__info {
+        margin-top: 250px;
+    }
+
+    section.main__oasis .oasis__info {
+        margin-top: 250px;
+    }
+
+    section.main__events h2 {
+        margin-top: 250px;
+    }
+
+    section.main__eastereggs .eastereggs__info {
+        margin-top: 250px;
+    }
+
+    section.main__eastereggs .eastereggs__info p {
+        text-align: justify;
+    }
+
+    section.main__eastereggs .eastereggs__eastereggs {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0;
+    }
+
+    section.main__eastereggs .eastereggs__eastereggs .eastereggs__easteregg{
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    section.main__reviews h2 {
+        margin-top: 250px;
+    }
+
+    section.main__trailers h2 {
+        margin-top: 250px;
+        margin-bottom: 0;
+    }
+
+    section.main__trailers .trailers__trailers .trailers__box {
+        margin-top: 50px;
+        margin-bottom: 0;
+    }
+
+    section.main__merch h2 {
+        margin-top: 250px;
+    }
+
+    section.main__merch .merch__merch {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+    }
+
+    section.main__merch .merch__merch .merch__box {
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (width <= 580px) {
+
+    header a .intro__img {
+        margin: 0 10px 0 0;
+    }
+
+    header nav.navbar {
+        justify-items: center;
+    }
+
+    section.main__poster .poster__info h1 {
+        font-size: 10rem;
+    }
+
+    section.main__about .about__about p {
+        text-align: justify;
+    }
+
+    section.main__events .events__events .events__event {
+        display: flex;
+        flex-direction: column;
+        height: min-content;
+    }
+
+    section.main__events .events__events .events__event .event__intro {
+        border: none;
+        border-bottom: 2px solid var(--title-color);
+        margin-bottom: 20px;
+    }
+
+    section.main__events .events__events .events__event ul {
+        text-align: justify;
+        margin: 0;
+    }
+
+    section.main__eastereggs {
+        position: relative;
+    }
+
+    section.main__eastereggs .eastereggs__info{
+        width: 100%;
+    }   
+
+    section.main__eastereggs .eastereggs__eastereggs {
+        min-width: 100%;
+    }
+
+    section.main__eastereggs .eastereggs__video__box {
+        
+    }
+
 }
