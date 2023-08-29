@@ -1,14 +1,14 @@
 # <p align="center">Ready Player One (Project Web Site)</p>
 This project is about the movie Ready Player One released in 2016, the topics to talk about are:
 
-- [About](#hola)
-- Casting
-- The OASIS
-- Events (in Movie)
-- Easter Eggs
-- Reviews
-- Trailers
-- Merchandise
+- [About](#about)
+- [Casting](#cast)
+- [The OASIS](#oasis)
+- [Events (in Movie)](#events)
+- [Easter Eggs](#eastereggs)
+- [Reviews](#reviews)
+- [Trailers](#trailers)
+- [Merchandise](#merch)
 
 ## Resources
 ![](https://img.icons8.com/?size=16&id=tWD8qSMmOrON&format=png) To watch the design of the Web Site [click here](assets/design/designProjectRPO.pdf)<br>
@@ -26,7 +26,9 @@ This project is about the movie Ready Player One released in 2016, the topics to
 ![](https://img.icons8.com/?size=16&id=tWD8qSMmOrON&format=png) Information used in this project [click here](assets/info.txt)
 
 ## About
-<p name="hola">Hola mundooooooooooo</p>
+<p name="about">
+  Ready Player One es una emocionante película de ciencia ficción dirigida por Steven Spielberg, basada en la exitosa novela del mismo nombre escrita por Ernest Cline. La película combina     elementos de aventura, acción y nostalgia para crear una experiencia cinematográfica única que atraerá tanto a fanáticos de la ciencia ficción como a amantes de la cultura pop.
+</p>
 
 
 
