@@ -27,7 +27,7 @@ This project is about the movie Ready Player One released in 2016, the topics to
 
 ## About
 <p name="about">
-  Ready Player One es una emocionante película de ciencia ficción dirigida por Steven Spielberg, basada en la exitosa novela del mismo nombre escrita por Ernest Cline. La película combina     elementos de aventura, acción y nostalgia para crear una experiencia cinematográfica única que atraerá tanto a fanáticos de la ciencia ficción como a amantes de la cultura pop.
+  Ready Player One is an exciting science fiction film directed by Steven Spielberg, based on the successful novel of the same name written by Ernest Cline. The movie blends elements of adventure, action, and nostalgia to create a unique cinematic experience that will appeal to both science fiction enthusiasts and lovers of pop culture.
 </p>
 
 
