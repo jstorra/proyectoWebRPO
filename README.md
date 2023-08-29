@@ -10,7 +10,10 @@ This project is about the movie Ready Player One released in 2016, the topics to
 - Trailers
 - Merchandise
 
-To see the design of the Web Site [click here](assets/design/designProjectRPO.pdf)
+![](https://img.icons8.com/?size=16&id=tWD8qSMmOrON&format=png) To see the design of the Web Site [click here](assets/design/designProjectRPO.pdf)
+![](https://img.icons8.com/?size=16&id=tWD8qSMmOrON&format=png) To see the design of the Web Site [click here](assets/design/designProjectRPO.pdf)
+![](https://img.icons8.com/?size=16&id=tWD8qSMmOrON&format=png) To see the design of the Web Site [click here](assets/design/designProjectRPO.pdf)
+
 
 ## About
 
