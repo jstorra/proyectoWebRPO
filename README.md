@@ -30,5 +30,20 @@ This project is about the movie Ready Player One released in 2016, the topics to
   Ready Player One is an exciting science fiction film directed by Steven Spielberg, based on the successful novel of the same name written by Ernest Cline. The movie blends elements of adventure, action, and nostalgia to create a unique cinematic experience that will appeal to both science fiction enthusiasts and lovers of pop culture.
 </p>
 
+## Casting
+<p name="cast">
+  The movie explores themes such as virtual reality, the search for personal identity, and the importance of collaboration and friendship. The actors fit into their roles effectively and manage to convey the energy and passion necessary to immerse the audience in the both real and virtual world of Ready Player One.
+
+The cast of the film includes several talented actors in key roles such as:
+
+- [Tye Sheridan](https://en.wikipedia.org/wiki/Tye_Sheridan) as Wade Watts (Parzival)
+- Olivia Cooke as Samantha Cook (Art3mis)
+- Ben Mendelsohn as Nolan Sorrento
+- Mark Rylance as James Halliday
+- Lena Waithe as Helen Harris (Aech)
+</p>
+
+
+
 
 
