@@ -36,11 +36,11 @@ This project is about the movie Ready Player One released in 2016, the topics to
 
 The cast of the film includes several talented actors in key roles such as:
 
-- <p><a href="https://en.wikipedia.org/wiki/Tye_Sheridan" target="_blank">Tye Sheridan</a> as Wade Watts (Parzival)</p>
-- Olivia Cooke as Samantha Cook (Art3mis)
-- Ben Mendelsohn as Nolan Sorrento
-- Mark Rylance as James Halliday
-- Lena Waithe as Helen Harris (Aech)
+- [Tye Sheridan](https://en.wikipedia.org/wiki/Tye_Sheridan) as Wade Watts (Parzival)
+- [Olivia Cooke](https://en.wikipedia.org/wiki/Olivia_Cooke#) as Samantha Cook (Art3mis)
+- [Ben Mendelsohn](https://en.wikipedia.org/wiki/Ben_Mendelsohn) as Nolan Sorrento
+- [Mark Rylance](https://en.wikipedia.org/wiki/Mark_Rylance) as James Halliday
+- [Lena Waithe](https://en.wikipedia.org/wiki/Lena_Waithe) as Helen Harris (Aech)
 </p>
 
 
