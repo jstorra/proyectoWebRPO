@@ -10,9 +10,12 @@ This project is about the movie Ready Player One released in 2016, the topics to
 - Trailers
 - Merchandise
 
+To see the design of the Web Site []click here
+
+
 ## About
 
-We go to talk about the authors, 
+We go to talk about the authors and what is it 
 
 
 
