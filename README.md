@@ -10,12 +10,10 @@ This project is about the movie Ready Player One released in 2016, the topics to
 - Trailers
 - Merchandise
 
-![](https://img.icons8.com/?size=16&id=tWD8qSMmOrON&format=png) To see the design of the Web Site [click here](assets/design/designProjectRPO.pdf)
-![](https://img.icons8.com/?size=16&id=tWD8qSMmOrON&format=png) To Download the Ready Player One font [click here](assets/fonts/main-font.ttf)
+![](https://img.icons8.com/?size=16&id=tWD8qSMmOrON&format=png) To see the design of the Web Site [click here](assets/design/designProjectRPO.pdf)<br>
+![](https://img.icons8.com/?size=16&id=tWD8qSMmOrON&format=png) To download the Ready Player One font [click here](assets/fonts/main-font.ttf)<br>
 
 ## About
-
-We go to talk about the authors and what is it 
 
 
 
