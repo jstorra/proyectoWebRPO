@@ -66,23 +66,27 @@ The cast of the film includes several talented actors in key roles such as:
   The events in the movie "Ready Player One" are designed to be thrilling and entertaining. The film offers a blend of fast-paced action, intellectual challenges, and emotional moments. The quest for the Easter egg and the trials that the characters face in the virtual world of the OASIS are crafted to keep the viewer engaged and invested in the plot.
 </p>
 
+![](/assets/readme/about.png)
+
 ## Easter Eggs
 <p name="eastereggs">
   The "Easter Eggs" in "Ready Player One" add an extra dimension of fun for those who can recognize and appreciate the references to pop culture and classic video games, enhancing the movie experience by allowing viewers to uncover these hidden details as they progress through the plot.
 </p>
 
+![](/assets/readme/about.png)
+
 ## Reviews
-<p name="reviews">
-  
-</p>
+
+<img name="reviews" src="/assets/readme/about.png">
+
 
 ## Trailers
 <p name="trailers">
-  
+  ![](/assets/readme/about.png)
 </p>
 
 ## Merchandise
 <p name="merch">
-  
+  ![](/assets/readme/about.png)
 </p>
 
