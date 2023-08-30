@@ -10,7 +10,7 @@ This project is about the movie Ready Player One released in 2016, the topics to
 - [Easter Eggs](#eastereggs)
 - [Reviews](#reviews)
 - [Trailers](#trailers)
-- [Merchandise](#merch)
+- [Merch](#merch)
 
 ## Resources
 ![](https://img.icons8.com/?size=16&id=tWD8qSMmOrON&format=png) To watch the design of the Web Site [click here](assets/design/designProjectRPO.pdf)<br>
@@ -27,7 +27,7 @@ This project is about the movie Ready Player One released in 2016, the topics to
 
 ![](https://img.icons8.com/?size=16&id=tWD8qSMmOrON&format=png) Information used in this project [click here](assets/info.txt)
 
-## Technologies used
+## Technologies
 - [HTML](https://developer.mozilla.org/es/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/es/docs/Web/CSS)
 - [BOOTSTRAP](https://getbootstrap.com/)
@@ -50,7 +50,19 @@ The cast of the film includes several talented actors in key roles such as:
 - [Lena Waithe](https://en.wikipedia.org/wiki/Lena_Waithe) as Helen Harris (Aech)
 </p>
 
+## The OASIS
+<p name="oasis">
+  Essentially, the Oasis in "Ready Player One" represents an escape from the harsh and grim reality of the real world into a virtual realm where possibilities are infinite, and individuals can become whatever they desire, explore imaginary places, and experience thrilling adventures. It also delves into themes of obsession with pop culture, nostalgia, and the significance of human connection, both online and offline.
+</p>
 
+## Events
+<p name="events">
+  The events in the movie "Ready Player One" are designed to be thrilling and entertaining. The film offers a blend of fast-paced action, intellectual challenges, and emotional moments. The quest for the Easter egg and the trials that the characters face in the virtual world of the OASIS are crafted to keep the viewer engaged and invested in the plot.
+</p>
 
+## Easter Eggs
+<p name="eastereggs">
+  The "Easter Eggs" in "Ready Player One" add an extra dimension of fun for those who can recognize and appreciate the references to pop culture and classic video games, enhancing the movie experience by allowing viewers to uncover these hidden details as they progress through the plot.
+</p>
 
 
