@@ -1,5 +1,5 @@
 # <p align="center">Ready Player One (Project Web Site)</p>
-![](/assets/readme/banner.png)
+![](/assets/imgWebsite/banner.png)
 
 This project is about the movie Ready Player One released in 2016, the topics to talk about are:
 
@@ -37,7 +37,7 @@ This project is about the movie Ready Player One released in 2016, the topics to
   Ready Player One is an exciting science fiction film directed by Steven Spielberg, based on the successful novel of the same name written by Ernest Cline. The movie blends elements of adventure, action, and nostalgia to create a unique cinematic experience that will appeal to both science fiction enthusiasts and lovers of pop culture.
 </p>
 
-![](/assets/readme/about.png)
+![](/assets/imgWebsite/about.png)
 
 ## Casting
 <p name="cast">
@@ -52,36 +52,36 @@ The cast of the film includes several talented actors in key roles such as:
 - [Lena Waithe](https://en.wikipedia.org/wiki/Lena_Waithe) as Helen Harris (Aech)
 </p>
 
-![](/assets/readme/casting.png)
+![](/assets/imgWebsite/casting.png)
 
 ## The OASIS
 <p name="oasis">
   Essentially, the Oasis in "Ready Player One" represents an escape from the harsh and grim reality of the real world into a virtual realm where possibilities are infinite, and individuals can become whatever they desire, explore imaginary places, and experience thrilling adventures. It also delves into themes of obsession with pop culture, nostalgia, and the significance of human connection, both online and offline.
 </p>
 
-![](/assets/readme/theoasis.png)
+![](/assets/imgWebsite/theoasis.png)
 
 ## Events
 <p name="events">
   The events in the movie "Ready Player One" are designed to be thrilling and entertaining. The film offers a blend of fast-paced action, intellectual challenges, and emotional moments. The quest for the Easter egg and the trials that the characters face in the virtual world of the OASIS are crafted to keep the viewer engaged and invested in the plot.
 </p>
 
-![](/assets/readme/events.png)
+![](/assets/imgWebsite/events.png)
 
 ## Easter Eggs
 <p name="eastereggs">
   The "Easter Eggs" in "Ready Player One" add an extra dimension of fun for those who can recognize and appreciate the references to pop culture and classic video games, enhancing the movie experience by allowing viewers to uncover these hidden details as they progress through the plot.
 </p>
 
-![](/assets/readme/eastereggs.png)
+![](/assets/imgWebsite/eastereggs.png)
 
 ## Reviews
-<img name="reviews" src="/assets/readme/reviews.png">
+<img name="reviews" src="/assets/imgWebsite/reviews.png">
 
 ## Trailers
-<img name="trailers" src="/assets/readme/trailers.png">
+<img name="trailers" src="/assets/imgWebsite/trailers.png">
 
 ## Merchandise
-<img name="merch" src="/assets/readme/merch.png">
+<img name="merch" src="/assets/imgWebsite/merch.png">
 
 <p align="center"><i>By Juan Sebastian Torra Garcia</i></p>
