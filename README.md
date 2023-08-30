@@ -37,6 +37,8 @@ This project is about the movie Ready Player One released in 2016, the topics to
   Ready Player One is an exciting science fiction film directed by Steven Spielberg, based on the successful novel of the same name written by Ernest Cline. The movie blends elements of adventure, action, and nostalgia to create a unique cinematic experience that will appeal to both science fiction enthusiasts and lovers of pop culture.
 </p>
 
+![](/assets/readme/about.png)
+
 ## Casting
 <p name="cast">
   The movie explores themes such as virtual reality, the search for personal identity, and the importance of collaboration and friendship. The actors fit into their roles effectively and manage to convey the energy and passion necessary to immerse the audience in the both real and virtual world of Ready Player One.
@@ -50,10 +52,14 @@ The cast of the film includes several talented actors in key roles such as:
 - [Lena Waithe](https://en.wikipedia.org/wiki/Lena_Waithe) as Helen Harris (Aech)
 </p>
 
+![](/assets/readme/about.png)
+
 ## The OASIS
 <p name="oasis">
   Essentially, the Oasis in "Ready Player One" represents an escape from the harsh and grim reality of the real world into a virtual realm where possibilities are infinite, and individuals can become whatever they desire, explore imaginary places, and experience thrilling adventures. It also delves into themes of obsession with pop culture, nostalgia, and the significance of human connection, both online and offline.
 </p>
+
+![](/assets/readme/about.png)
 
 ## Events
 <p name="events">
