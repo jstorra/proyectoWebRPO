@@ -84,3 +84,4 @@ The cast of the film includes several talented actors in key roles such as:
 ## Merchandise
 <img name="merch" src="/assets/readme/merch.png">
 
+<p align="center"><i>By Juan Sebastian Torra Garcia</i></p>
