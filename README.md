@@ -27,6 +27,11 @@ This project is about the movie Ready Player One released in 2016, the topics to
 
 ![](https://img.icons8.com/?size=16&id=tWD8qSMmOrON&format=png) Information used in this project [click here](assets/info.txt)
 
+## Technologies used
+- [HTML](https://developer.mozilla.org/es/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/es/docs/Web/CSS)
+- [BOOTSTRAP](https://getbootstrap.com/)
+
 ## About
 <p name="about">
   Ready Player One is an exciting science fiction film directed by Steven Spielberg, based on the successful novel of the same name written by Ernest Cline. The movie blends elements of adventure, action, and nostalgia to create a unique cinematic experience that will appeal to both science fiction enthusiasts and lovers of pop culture.
