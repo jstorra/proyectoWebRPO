@@ -1,6 +1,6 @@
+# <p align="center">Ready Player One (Project Web Site)</p>
 ![](/assets/readme/banner.png)
 
-# <p align="center">Ready Player One (Project Web Site)</p>
 This project is about the movie Ready Player One released in 2016, the topics to talk about are:
 
 - [About](#about)
