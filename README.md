@@ -10,7 +10,7 @@ This project is about the movie Ready Player One released in 2016, the topics to
 - [Easter Eggs](#eastereggs)
 - [Reviews](#reviews)
 - [Trailers](#trailers)
-- [Merch](#merch)
+- [Merchandise](#merch)
 
 ## Resources
 ![](https://img.icons8.com/?size=16&id=tWD8qSMmOrON&format=png) To watch the design of the Web Site [click here](assets/design/designProjectRPO.pdf)<br>
@@ -65,4 +65,18 @@ The cast of the film includes several talented actors in key roles such as:
   The "Easter Eggs" in "Ready Player One" add an extra dimension of fun for those who can recognize and appreciate the references to pop culture and classic video games, enhancing the movie experience by allowing viewers to uncover these hidden details as they progress through the plot.
 </p>
 
+## Reviews
+<p name="reviews">
+  
+</p>
+
+## Trailers
+<p name="trailers">
+  
+</p>
+
+## Merchandise
+<p name="merch">
+  
+</p>
 
