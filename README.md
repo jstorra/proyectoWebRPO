@@ -12,7 +12,8 @@ This project is about the movie Ready Player One released in 2016, the topics to
 - [Trailers](#trailers)
 - [Merchandise](#merch)
 
-## Resources
+<h2>Resources</h2>
+
 ![](https://img.icons8.com/?size=16&id=tWD8qSMmOrON&format=png) To watch the design of the Web Site [click here](assets/design/designProjectRPO.pdf)<br>
 ![](https://img.icons8.com/?size=16&id=tWD8qSMmOrON&format=png) To download the Ready Player One font [click here](assets/fonts/main-font.ttf)<br>
 ![](https://img.icons8.com/?size=16&id=tWD8qSMmOrON&format=png) Look all the images used in this project:
@@ -32,16 +33,15 @@ This project is about the movie Ready Player One released in 2016, the topics to
 - [CSS](https://developer.mozilla.org/es/docs/Web/CSS)
 - [BOOTSTRAP](https://getbootstrap.com/)
 
-## About
-<p name="about">
-  Ready Player One is an exciting science fiction film directed by Steven Spielberg, based on the successful novel of the same name written by Ernest Cline. The movie blends elements of adventure, action, and nostalgia to create a unique cinematic experience that will appeal to both science fiction enthusiasts and lovers of pop culture.
-</p>
+<h2 name="about">About</h2>
+
+Ready Player One is an exciting science fiction film directed by Steven Spielberg, based on the successful novel of the same name written by Ernest Cline. The movie blends elements of adventure, action, and nostalgia to create a unique cinematic experience that will appeal to both science fiction enthusiasts and lovers of pop culture.
 
 ![](/assets/imgWebsite/about.png)
 
-## Casting
-<p name="cast">
-  The movie explores themes such as virtual reality, the search for personal identity, and the importance of collaboration and friendship. The actors fit into their roles effectively and manage to convey the energy and passion necessary to immerse the audience in the both real and virtual world of Ready Player One.
+<h2 name="cast">Casting</h2>
+
+The movie explores themes such as virtual reality, the search for personal identity, and the importance of collaboration and friendship. The actors fit into their roles effectively and manage to convey the energy and passion necessary to immerse the audience in the both real and virtual world of Ready Player One.
 
 The cast of the film includes several talented actors in key roles such as:
 
