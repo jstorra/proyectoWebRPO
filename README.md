@@ -13,7 +13,7 @@ This project is about the movie Ready Player One released in 2016, the topics to
 - [Trailers](#trailers)
 - [Merchandise](#merch)
 
-## Resources [![](https://img.icons8.com/?size=30&id=52491&format=png)](#intro)
+## Resources
 
 ![](https://img.icons8.com/?size=16&id=tWD8qSMmOrON&format=png) To watch the design of the Web Site [click here](assets/design/designProjectRPO.pdf)<br>
 ![](https://img.icons8.com/?size=16&id=tWD8qSMmOrON&format=png) To download the Ready Player One font [click here](assets/fonts/main-font.ttf)<br>
@@ -34,7 +34,9 @@ This project is about the movie Ready Player One released in 2016, the topics to
 - [CSS](https://developer.mozilla.org/es/docs/Web/CSS)
 - [BOOTSTRAP](https://getbootstrap.com/)
 
-<h2 name="about">About</h2>
+<div name="about"></div>
+## About [![](https://img.icons8.com/?size=30&id=52491&format=png)](#intro)
+
 
 Ready Player One is an exciting science fiction film directed by Steven Spielberg, based on the successful novel of the same name written by Ernest Cline. The movie blends elements of adventure, action, and nostalgia to create a unique cinematic experience that will appeal to both science fiction enthusiasts and lovers of pop culture.
 
