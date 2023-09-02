@@ -31,7 +31,12 @@ This project is about the movie Ready Player One released in 2016, the topics to
 
 ## Development Process
 
-- 
+- Analysis
+- Resources and data collection
+- Design (Figma)
+- Estructuring with HTML
+- Adding styles withc CSS
+- Bootstrap implementation
 
 ## Technologies
 - [HTML](https://developer.mozilla.org/es/docs/Web/HTML)
