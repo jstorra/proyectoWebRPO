@@ -83,13 +83,19 @@ The "Easter Eggs" in "Ready Player One" add an extra dimension of fun for those 
 
 ![](/assets/imgWebsite/eastereggs.png)
 
+<div name="reviews"></div>
+
 ## Reviews [![](https://img.icons8.com/?size=30&id=52491&format=png)](#intro)
-<img name="reviews" src="/assets/imgWebsite/reviews.png">
+<img src="/assets/imgWebsite/reviews.png">
+
+<div name="trailers"></div>
 
 ## Trailers [![](https://img.icons8.com/?size=30&id=52491&format=png)](#intro)
-<img name="trailers" src="/assets/imgWebsite/trailers.png">
+<img src="/assets/imgWebsite/trailers.png">
+
+<div name="merch"></div>
 
 ## Merchandise [![](https://img.icons8.com/?size=30&id=52491&format=png)](#intro)
-<img name="merch" src="/assets/imgWebsite/merch.png">
+<img src="/assets/imgWebsite/merch.png">
 
 <p align="center"><i>By Juan Sebastian Torra Garcia</i></p>
