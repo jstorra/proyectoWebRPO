@@ -164,6 +164,7 @@ section.main__poster::after {
     blue 100%
   );
   -webkit-text-fill-color: transparent;
+  background-clip: text;
   -webkit-background-clip: text;
 }
 
@@ -988,9 +989,10 @@ section.main__merch h2 {
 footer {
   position: relative;
   margin-top: 150px;
+  padding: 0px 10vw;
   border-top: 4px solid var(--title-color);
   width: 100%;
-  height: 100px;
+  height: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1010,11 +1012,14 @@ footer::before {
 
 footer p {
   font-size: var(--p-font-size2);
+  margin: 0;
 }
 
 footer hr {
   margin: 0 30px;
-  height: 25%;
+  height: 30px;
+  border: 1px solid var(--text-color);
+  opacity: 1;
 }
 
 footer a {
@@ -1040,6 +1045,10 @@ footer a:active {
 footer a span {
   margin-left: 10px;
   font-size: var(--p-font-size2);
+}
+
+.d-flex {
+  align-items: center;
 }
 
 /*
@@ -1359,13 +1368,9 @@ footer a span {
     width: 439px;
     height: 246px;
   }
-
-  footer {
-    padding: 0 5vw;
-  }
 }
 
-@media only screen and (width <= 320px) {
+@media only screen and (width <= 530px) {
   header {
     height: 120px;
   }
