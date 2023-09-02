@@ -29,6 +29,10 @@ This project is about the movie Ready Player One released in 2016, the topics to
 
 ![](https://img.icons8.com/?size=16&id=tWD8qSMmOrON&format=png) Information used in this project [click here](assets/info.txt)
 
+## Development Process
+
+- 
+
 ## Technologies
 - [HTML](https://developer.mozilla.org/es/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/es/docs/Web/CSS)
