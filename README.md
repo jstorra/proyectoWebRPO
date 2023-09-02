@@ -1,4 +1,4 @@
-# <p align="center">Ready Player One (Project Web Site)</p>
+# <p align="center" name="intro">Ready Player One (Project Web Site)</p>
 
 ![](/assets/imgWebsite/banner.png)
 
@@ -13,7 +13,7 @@ This project is about the movie Ready Player One released in 2016, the topics to
 - [Trailers](#trailers)
 - [Merchandise](#merch)
 
-<h2>Resources</h2>
+## Resources [![](https://img.icons8.com/?size=30&id=52491&format=png)](#intro)
 
 ![](https://img.icons8.com/?size=16&id=tWD8qSMmOrON&format=png) To watch the design of the Web Site [click here](assets/design/designProjectRPO.pdf)<br>
 ![](https://img.icons8.com/?size=16&id=tWD8qSMmOrON&format=png) To download the Ready Player One font [click here](assets/fonts/main-font.ttf)<br>
